@@ -14,8 +14,6 @@ class Dog
   end
   
   def self.clear_all
-    @@all.length.times do
-      @@all.pop
-    end
+    @@all.clear
   end
 end
